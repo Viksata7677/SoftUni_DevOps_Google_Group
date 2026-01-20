@@ -267,24 +267,12 @@ input {
     font-weight: 300;
 }
 
-::placeholder {
-    color: #e5e5e5;
+.buttons {
+    display: flex;
 }
 
-button {
-    margin-top: 30px;
-    width: 100%;
-    background-color: #ffffff;
-    color: #080710;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    box-shadow: 1px 1px 11px 8px #e7a83a;
+.buttons button {
+    margin: 20px;
 }
 
 .background {
